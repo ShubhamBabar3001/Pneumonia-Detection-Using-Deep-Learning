@@ -1,0 +1,48 @@
+.HealthRecordDiv{
+    text-align: left;
+    width: 80%;
+    height: 75vh;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.healthRecordTitle{
+    padding: 20px 20px;
+    /* border: 2px solid yellow; */
+    border-radius: 5px;
+    display: flex;
+    /* padding: 20px 20px; */
+    align-items: center;
+    justify-content: space-around;
+}
+.healthRecordTitle p{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.849);
+}
+#healthRecordEmpty{
+    color: gray;
+}
+#HealthRecordContainer{
+    height: 85%;
+    /* border: 2px solid red; */
+    overflow-y: scroll;
+}
+#HealthRecordContainer::-webkit-scrollbar{
+    width: 10px;
+    /* border: 2px solid gray; */
+    
+}
+#HealthRecordContainer::-webkit-scrollbar-track {
+    background: #fe93a39e; /* Track color */
+    border-radius: 10px;
+}
+#HealthRecordContainer::-webkit-scrollbar-thumb {
+    background: #e76161; /* Scrollbar handle color */
+    border-radius: 5px; /* Rounded corners */
+}
+.NotFound{
+    text-align: center;
+    margin: 20% 0;
+}

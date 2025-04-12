@@ -1,0 +1,103 @@
+#Formpage1{
+    width: 100%;
+    position: relative;
+}
+#Formpage2{
+    margin: 3rem auto;
+    max-width: 1300px;
+    /* border: 2px solid yellow; */
+    padding: 20px 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#FormDiv{
+    width: 80%;
+    padding: 10px;
+    /* height: 2rem; */
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 auto;
+}
+#FormDiv img{
+    width: 50%;
+    height: 30rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+#FormDiv form{
+ width: 50%;
+ padding: 20px 20px;
+}
+#FormDiv #person{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    font-weight: 600;
+}
+#FormDiv .label{
+    margin-top: 2rem;
+}
+#FormDiv input{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 15px;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    outline: none;
+    border-bottom: 2px solid #e76161;
+    border-radius: 5px;
+}
+.Form-btn{
+    margin: 2rem 0;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #fe93a3 0%, #e76161 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#FormDiv #swapForm{
+    color: #e76161;
+    cursor: pointer;
+}
+.switchdiv{
+    position: relative;
+    display: inline;
+    /* display: flex;
+    justify-content: flex-end;
+    top: -28rem; */
+    left: -60px;
+}
+@media (max-width:769px) {
+    #FormDiv {
+        width: 100%;
+    }
+    #FormDiv img{
+        display: none;
+    }
+    #FormDiv form{
+        width: 100%;
+    }
+    .switchdiv{
+        position:absolute;
+        display: inline;
+        left: 19rem;
+    }
+    #FormDiv #person{
+        margin-top: 20px;
+    }
+}

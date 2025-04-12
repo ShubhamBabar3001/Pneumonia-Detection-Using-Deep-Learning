@@ -1,0 +1,24 @@
+#outerpart{
+    position: relative;
+    width: 65px;
+    height: 25px;
+    border: 2px solid #e76161;
+    border-radius: 30px;
+    padding: 2px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#innerpart{
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    background-color: #e76161;
+    border-radius: 50%;
+    left: 2px;
+    transition: 0.3s;
+}
+#innerpart.active {
+    left: 39px;
+}

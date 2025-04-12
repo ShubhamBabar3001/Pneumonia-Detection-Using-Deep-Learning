@@ -1,0 +1,13 @@
+.patientpage{
+    width: 100%;
+}
+#patientpage1{
+    margin: 3rem auto;
+    max-width: 1300px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    padding: 20px 20px;
+}
+.content{
+    width: 80%;
+}

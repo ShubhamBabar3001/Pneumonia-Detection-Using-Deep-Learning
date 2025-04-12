@@ -1,0 +1,73 @@
+.ChatbotDiv {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* border: 2px solid red; */
+}
+.Chatbox{
+    width: 400px;
+    height: 26rem;
+    padding: 20px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+#ChatbotBtn {
+    width: 70px;
+    height: 70px;
+    background-color: #e76161;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#Chat-Header{
+    width: 100%;
+}
+#Chat-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Chat-body{
+    width: 100%;
+    height: 100%;
+    margin: 6px 0;
+    /* border: 2px solid red ; */
+    overflow-y: scroll;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#Chat-body::-webkit-scrollbar{
+    display:none;
+}
+#Chat-input input{
+    padding: 5px 5px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+#Chat-input input:focus{
+    border:2px solid #fe93a3 ;
+    /* border-color: #fe93a3; */
+    border-radius: 2px;
+}
+#Chat-sendbtn{
+    padding: 5px 15px;
+    font-size: 20px;
+    background: linear-gradient(90deg, #fe93a3 0%, #e76161 100%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}

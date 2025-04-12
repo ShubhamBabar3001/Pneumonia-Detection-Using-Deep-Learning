@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 30rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  .card p{
+    font-size: 20px;
+  }
+  .card ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 20px;
+  }

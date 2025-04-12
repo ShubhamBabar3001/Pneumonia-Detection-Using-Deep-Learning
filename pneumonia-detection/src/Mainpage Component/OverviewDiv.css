@@ -1,0 +1,53 @@
+#overviewDiv {
+    text-align: left;
+    width: 80%;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#overviewDiv h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.overviewcard-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.overviewcard {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 22%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.overviewcard h2 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    color: #666;
+}
+
+.overviewcard p {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+@media (max-width: 768px) {
+    .overviewcard {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .overviewcard {
+        width: 100%;
+    }
+}

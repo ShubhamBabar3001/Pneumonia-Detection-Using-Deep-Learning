@@ -1,0 +1,135 @@
+.UploadImage{
+    width: 80%;
+    height: 74vh;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.UploadImage #predictionArea, #Doctorlist{
+    width: 100%;
+    height: 100%;
+}
+/* .UploadImage #predictionArea{
+    background-color: aqua;
+} */
+/* .UploadImage #Doctorlist{
+    display: flex;
+    align-items: center;
+
+} */
+#imageDiv{
+    width: 80%;
+    height: 60%;
+    /* background-color: red; */
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px dashed #e76161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+#InnerImageDiv{
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#InnerImageDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#predictionBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 2px;
+}
+#predictionBtn button{
+  color: #fff;
+}
+#result-prediction{
+    margin: 9% auto;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px 10px ;
+    color: #fe93a3;
+    font-size: 30px;
+    box-shadow: #e76161;
+}
+/* ------------------------------- Loadder ----------------------------- */
+.FutureTreatment {
+  height: 10rem;
+  margin: 20px 0;
+}
+.FutureTreatment p{
+  color: #000;
+  font-size: 20px;
+  text-align: left;
+}
+.FutureTreatment li{
+  font-size: 18px;
+  margin-left: 2rem;
+  text-align: left;
+}
+.lds-ripple,
+.lds-ripple div {
+  box-sizing: border-box;
+}
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid currentColor;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+  }
+}
+

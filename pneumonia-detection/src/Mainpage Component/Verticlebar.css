@@ -1,0 +1,39 @@
+.verticalbar{
+    width: 20%;
+    height: 75vh;
+    padding-left: 10px;
+    padding-right: 16px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pointname{
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.verticalbar li{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none;
+}
+.verticalbar ul li.active {
+    background: linear-gradient(90deg, #fe93a3 0%, #e76161 100%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media (max-width:769px) {
+    .verticalbar{
+        display: none;
+    }
+}
