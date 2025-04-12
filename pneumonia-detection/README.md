@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🫁 Pneumonia Detection from Chest X-Ray Images
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project detects and classifies pneumonia types from chest X-ray images using a Convolutional Neural Network (CNN) model. It supports four classes:
 
-## Available Scripts
+- Normal
+- COVID-19
+- Pneumonia-Bacterial
+- Pneumonia-Viral
 
-In the project directory, you can run:
+## 🛠 Technologies Used
 
-### `npm start`
+- Python
+- TensorFlow / Keras
+- OpenCV
+- Flask (for backend)
+- React (for frontend)
+- Axios, React Router, Font Awesome (frontend dependencies)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Python Backend Setup
 
-### `npm test`
+### 📦 Step 1: Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/your-username/pneumonia-detection.git
+cd pneumonia-detection
+```
+### 🐍 Step 2: Install Python Dependencies
+```bash
+pip install tensorflow
+pip install opencv-python
+pip install flask
+pip install pillow
+pip install matplotlib
+pip install scikit-learn
+```
 
-### `npm run build`
+## 🌐 React Libraries (for frontend)
+```bash
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+npm install react-router-dom
+npm install axios
+```
+## ▶️ Running the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 1: Start the Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate to the backend directory and run the following command to start the Flask server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+python app.py
+```
 
-### `npm run eject`
+### Step 2: Start the Frontend
+Navigate to the frontend directory and run the following command to start the React development server:
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project interface
+### 1. Patient Dashboard
+![Screenshot 2025-04-07 175809 - Copy](https://github.com/user-attachments/assets/526d79ac-1c61-4ed2-b821-f93c4725064b)
+### 2. Patient record
+![Screenshot 2025-04-07 175903 - Copy](https://github.com/user-attachments/assets/1ac32577-6a90-40fe-adf2-179e6f935321)
+### 1. Prediction and future tretment suggestion
+![Screenshot 2025-04-07 175919](https://github.com/user-attachments/assets/ab63d98b-8a05-4a33-975f-4925ca70ce7e)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
